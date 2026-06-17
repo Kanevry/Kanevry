@@ -18,3 +18,5 @@ Hands-on courses on building real things with AI agents. The two closest to the 
 - **[Loop Engineering](https://agenticbuilders.at/loop-engineering)** — autonomous loops that finish verifiably: done-conditions, deterministic gates, kill-switches.
 
 **Elsewhere** — AI consulting at [gotzendorfer.at](https://www.gotzendorfer.at) · [@\_Kanevry](https://x.com/_Kanevry)
+
+<!-- profile readme -->
