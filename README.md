@@ -1,22 +1,31 @@
-### Hi, I'm Bernhard 👋
+### Bernhard Götzendorfer
 
-I build agentic AI systems, and I teach people how to build with them. Based in Vienna.
+I orchestrate AI agents that build and test software in parallel. Session Orchestrator and Lead Session Orchestrator are how I do it, and both run every day on my own repositories. Farnu brings the same process to people who don't write code. Based in Vienna.
 
-**Things I've open-sourced**
+#### Session Orchestrator
 
-- **[session-orchestrator](https://github.com/Kanevry/session-orchestrator)** — turns ad-hoc Claude Code / Codex / Cursor sessions into a repeatable loop: research, plan, execute in waves, close. Verification gates between waves so regressions don't slip through.
-- **[aegis](https://github.com/Kanevry/aegis)** — a hardening layer for AI agents. Five-layer defense, with safety treated as a first-class error. Built at the Codex Vienna hackathon.
-- **[wondraiwork](https://github.com/Kanevry/wondraiwork)** — a framework for AI-assisted open-source contribution. The human leads, the AI assists.
-- **[DevWatchdog](https://github.com/Kanevry/DevWatchdog)** — a small macOS menu-bar app that hunts down zombie Node test and build processes.
-- **[bg-pdf-service](https://github.com/Kanevry/bg-pdf-service)** — self-hosted HTML-to-PDF in one command, no vendor lock-in.
+<a href="https://github.com/Kanevry/session-orchestrator"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Kanevry/session-orchestrator?style=flat-square"></a> <a href="https://www.npmjs.com/package/session-orchestrator"><img alt="npm downloads" src="https://img.shields.io/npm/dm/session-orchestrator?style=flat-square&label=npm"></a>
 
-**Courses — [agenticbuilders.at](https://agenticbuilders.at)**
+**[session-orchestrator](https://github.com/Kanevry/session-orchestrator)** gives your coding agents an agreed plan, a check after each round of changes and a handover to the next session. `/session` reads your repository and proposes the scope. `/go` runs it in waves of parallel agents, with tests and typecheck after each wave. `/close` checks every planned item and files the rest as issues. Works with Claude Code, Codex CLI, Cursor and Pi. Free and MIT. [session-orchestrator.com](https://session-orchestrator.com)
 
-Hands-on courses on building real things with AI agents. The two closest to the work above:
+#### Lead Session Orchestrator
 
-- **[Multi-Agent Orchestration](https://agenticbuilders.at/orchestrierung)** — leading several agents in coordinated waves instead of one endless chat. It's the model session-orchestrator automates.
-- **[Loop Engineering](https://agenticbuilders.at/loop-engineering)** — autonomous loops that finish verifiably: done-conditions, deterministic gates, kill-switches.
+<a href="https://www.npmjs.com/package/lead-session-orchestrator"><img alt="npm version" src="https://img.shields.io/npm/v/lead-session-orchestrator?style=flat-square&label=npm"></a>
 
-**Elsewhere** — AI consulting at [gotzendorfer.at](https://www.gotzendorfer.at) · [@\_Kanevry](https://x.com/_Kanevry)
+**[lead-session-orchestrator](https://session-orchestrator.com/lead)** is for the day you run several sessions at once. One lead session sits above the others. Open questions from every session land in one queue. What a session may do on its own sits in a file you signed. Nothing ships without your yes. `npm i -g lead-session-orchestrator`
 
-<!-- profile readme -->
+#### Farnu
+
+**Farnu** takes an idea to a secure, legally prepared project in your own GitHub, built with your own Claude Code or Codex subscription. You answer questions instead of writing prompts. Your project moves through safety levels from a playground to production, and the code is yours from the first commit. It packages the process above for people who don't write code. Farnu is in development. Follow along at [agenticbuilders.at](https://agenticbuilders.at).
+
+#### Also built
+
+- **[tethercam](https://github.com/Kanevry/tethercam)**: your iPhone as a USB camera for Mac video calls and OBS. Two free apps, no Wi-Fi, no cloud.
+- **[bitgn-pac-agent-public](https://github.com/Kanevry/bitgn-pac-agent-public)**: my solo entry for the BitGN Personal Agent Challenge 2026, first place at the Vienna hub.
+- **[paired-verdict](https://github.com/Kanevry/paired-verdict)**: can model A replace model B on the same cases? A paired non-inferiority test.
+
+#### Learn it
+
+Courses at [agenticbuilders.at](https://agenticbuilders.at): [Multi-Agent Orchestration](https://agenticbuilders.at/orchestrierung) and [Loop Engineering](https://agenticbuilders.at/loop-engineering).
+
+[gotzendorfer.at](https://www.gotzendorfer.at) · [LinkedIn](https://www.linkedin.com/in/bernhard-goetzendorfer) · [X](https://x.com/_Kanevry)
