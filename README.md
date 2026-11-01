@@ -18,6 +18,19 @@ I orchestrate AI agents that build and test software in parallel. Session Orches
 
 **Farnu** takes an idea to a secure, legally prepared project in your own GitHub, built with your own Claude Code or Codex subscription. You answer questions instead of writing prompts. Your project moves through safety levels from a playground to production, and the code is yours from the first commit. It packages the process above for people who don't write code. Farnu is in development. Follow along at [agenticbuilders.at](https://agenticbuilders.at).
 
+#### Recent releases
+
+<!-- recent-releases:start -->
+- [session-orchestrator v5.16.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.16.0), 29 Oct 2026
+- [session-orchestrator v5.15.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.15.0), 28 Oct 2026
+- [session-orchestrator v5.14.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.14.0), 27 Oct 2026
+- [session-orchestrator v5.13.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.13.0), 23 Oct 2026
+- [session-orchestrator v5.12.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.12.0), 11 Oct 2026
+- [lead-session-orchestrator 0.4.0](https://www.npmjs.com/package/lead-session-orchestrator), 23 Oct 2026
+<!-- recent-releases:end -->
+
+Updated daily by a GitHub Action in this repository.
+
 #### Also built
 
 - **[tethercam](https://github.com/Kanevry/tethercam)**: your iPhone as a USB camera for Mac video calls and OBS. Two free apps, no Wi-Fi, no cloud.
