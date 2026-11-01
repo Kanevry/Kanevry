@@ -8,7 +8,7 @@ const END = '<!-- recent-releases:end -->';
 const README = new URL('../README.md', import.meta.url);
 const RELEASES_URL =
   process.env.SO_RELEASES_URL ??
-  'https://api.github.com/repos/Kanevry/session-orchestrator/releases?per_page=5';
+  'https://api.github.com/repos/Kanevry/session-orchestrator/releases?per_page=20';
 const NPM_URL = process.env.SO_NPM_URL ?? 'https://registry.npmjs.org/lead-session-orchestrator';
 const NPM_PAGE = 'https://www.npmjs.com/package/lead-session-orchestrator';
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -30,9 +30,10 @@ function formatDate(iso) {
   return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 }
 
-// Keeps generated text free of dashes the voice rules forbid and of link-breaking brackets.
+// Keeps generated text free of dashes the voice rules forbid, of link-breaking brackets and
+// of angle brackets, so a release name can never forge the block markers.
 function clean(text) {
-  return String(text).replace(/[–—]/g, '-').replace(/[[\]\r\n]+/g, ' ').trim();
+  return String(text).replace(/[–—]/g, '-').replace(/[[\]<>\r\n]+/g, ' ').trim();
 }
 
 let block;
