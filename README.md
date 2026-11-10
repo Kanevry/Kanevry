@@ -26,7 +26,7 @@ I orchestrate AI agents that build and test software in parallel. Session Orches
 - [session-orchestrator v5.15.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.15.0), 28 Oct 2026
 - [session-orchestrator v5.14.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.14.0), 27 Oct 2026
 - [session-orchestrator v5.13.0](https://github.com/Kanevry/session-orchestrator/releases/tag/v5.13.0), 23 Oct 2026
-- [lead-session-orchestrator 0.4.0](https://www.npmjs.com/package/lead-session-orchestrator), 23 Oct 2026
+- [lead-session-orchestrator 0.5.0](https://www.npmjs.com/package/lead-session-orchestrator), 9 Nov 2026
 <!-- recent-releases:end -->
 
 Updated daily by a GitHub Action in this repository.
