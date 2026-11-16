@@ -1,3 +1,5 @@
+<a href="https://www.gotzendorfer.at/en"><img src="assets/banner.png" alt="Bernhard Götzendorfer. AI where it pays off. Code where it has to be right." width="100%"></a>
+
 ### Bernhard Götzendorfer
 
 I orchestrate AI agents that build and test software in parallel. Session Orchestrator and Lead Session Orchestrator are how I do it, and both run every day on my own repositories. Farnu brings the same process to people who don't write code. Based in Vienna.
